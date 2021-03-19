@@ -1,5 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from SBot import SBot
+from SBot import SupremeBot
 import time
 
 class Ui_MainWindow(object):
@@ -40,7 +40,7 @@ class Ui_MainWindow(object):
                 how_many_items+=1
 
 
-            bot = SBot(**self.Dict)
+            bot = SupremeBot(**self.Dict)
             bot.init_browser()
             print("no siema")
             found_product = False
