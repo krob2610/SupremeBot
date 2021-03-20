@@ -1,14 +1,14 @@
-#Supreme Bot 
+# Supreme Bot 
 
 A supreme bot, written in python, to grab a list of specified products before they sell out. 
 
-##Requirements:
+## Requirements:
 
 * Python 3
 * Google Chrome
 * ChromeDriver
 
-##Dependencies:
+## Dependencies:
 
 * Selenium
 * BeautifulSoup4
