@@ -1,6 +1,6 @@
 # Supreme Bot 
 
-A supreme bot, written in python, to grab a list of specified products before they sell out. 
+A simple Supreme bot, to grab a list of products before they sell out
 
 ## Requirements:
 
