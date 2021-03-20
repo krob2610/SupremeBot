@@ -16,9 +16,7 @@ A simple Supreme bot, to grab a list of products before they sell out
 * PyQt5
 
 
-### Sample Images
+## Sample Images:
 
 ![alt text](https://github.com/krob2610/SupremeBot/blob/master/gui.png?raw=true)
-
-
 ![alt text](https://github.com/krob2610/SupremeBot/blob/master/items%20in%20basket.png?raw=true)
