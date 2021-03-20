@@ -32,6 +32,7 @@ class SupremeBot:
         else:
             self.b = webdriver.Chrome(chrome_options=options)
         self.b.get("https://www.supremenewyork.com/shop/all")
+
     def find_product(self, number):
         try:
             r  = requests.get("{}{}{}".format(self.base, self.shop_ext, self.info["category"][number])).text
