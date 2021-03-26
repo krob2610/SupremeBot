@@ -42,7 +42,6 @@ class Ui_MainWindow(object):
 
             bot = SupremeBot(**self.Dict)
             bot.init_browser()
-            print("no siema")
             found_product = False
             counter = 1
             start = time.time()
@@ -52,7 +51,6 @@ class Ui_MainWindow(object):
                 found_product = bot.find_product(0)
                 counter +=1
                 time.sleep(self.RefreshPage)
-            print("no siema2")
             bot.visit_site(0)
             time.sleep(self.BetweenItems)
             if how_many_items is not 1:
